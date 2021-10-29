@@ -24,7 +24,7 @@ terraform {
 module "pass" {
 
   source  = "app.terraform.io/Volvo-DevSecOps-POC/pass/volvo"
-  version = "1.3.6"
+  version = "1.5.5"
 
   # insert required variables here
   location            = "westeurope"
