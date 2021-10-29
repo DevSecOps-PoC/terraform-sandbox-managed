@@ -28,14 +28,14 @@ module "pass" {
 
   # insert required variables here
   location            = "westeurope"
-  resource_group_name = "jumm-rg"
+  resource_group_name = "jummy-rg"
   vnet_name  = "jumm-vnet"
-  app_name            = "jumm-poc"
-  appplan_name        = "jumm-poc-app-plan"
+  app_name            = "jummy-poc"
+  appplan_name        = "jummy-poc-app-plan"
 
-  postgresql_server_name   = "jumm-poc-server"
-  postgresql_database_name = "jumm-poc-db"
-  postgresql_server_private_endpoint = "jumm-poc-server-endpoint"
+  postgresql_server_name   = "jummy-poc-server"
+  postgresql_database_name = "jummy-poc-db"
+  postgresql_server_private_endpoint = "jummy-poc-server-endpoint"
 
   AssigmentCode = var.AssigmentCode
   Owner = var.Technical_Contact
