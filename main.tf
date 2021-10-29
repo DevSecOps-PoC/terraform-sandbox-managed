@@ -24,12 +24,12 @@ terraform {
 module "pass" {
 
   source  = "app.terraform.io/Volvo-DevSecOps-POC/pass/volvo"
-  version = "1.5.5"
+  version = "1.5.7"
 
   # insert required variables here
   location            = "westeurope"
   resource_group_name = "jummy-rg"
-  vnet_name  = "jumm-vnet"
+  vnet_name  = "jummy-vnet"
   app_name            = "jummy-poc"
   appplan_name        = "jummy-poc-app-plan"
 
