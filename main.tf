@@ -9,14 +9,17 @@ terraform {
 
   required_version = ">= 0.14"
 
-  backend "remote" {
+   backend "remote" {
     organization = "Volvo-DevSecOps-POC"
 
     workspaces {
-      name = "devsecops-blueprints-prod"
+      name = "Azure-managed-POC-PROD"
     }
   }
+  
 }
+
+ 
 
 module "pass" {
 
